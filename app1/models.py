@@ -1,4 +1,5 @@
 from django.db import models
 
 # Create your models here.
-#yjkukukii
+class Student(models.Model):
+    name=models.CharField(max_length=33)
